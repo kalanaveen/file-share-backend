@@ -1,0 +1,21 @@
+{
+  "name": "file-share",
+  "version": "1.0.0",
+  "description": "file sharing application api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "naveen kala",
+  "license": "ISC",
+  "scripts":{
+    "dev":"nodemon server.js",
+    "serve":"node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
